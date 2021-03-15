@@ -1,0 +1,51 @@
+.services{
+    background: #2F343A;
+    padding: 166px 120px 120px;
+    &__block{
+        width: 1104px;
+        height: 360px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__title{
+        margin-bottom: 60px;
+    }
+    &__card{
+        position: relative;
+        width: 276px;
+        height: 180px;
+        background: #393F47;
+        border: 1px solid black;
+        color: white;
+        text-transform: uppercase;
+        left: 0;
+        text-align: center;
+        padding-top: 128px;
+        &:hover{
+            background: $gold;
+            &::before{
+                content: '';
+                position: absolute;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+                background: url(../images/services/Vectorb.png) center center / 30px 30px no-repeat;
+                background-color:#fff;
+
+            }
+        }
+        &::before{
+            height: 30px;
+            width: 30px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            content: '';
+            position: absolute;
+            background: url(../images/services/Vector.png);
+        }
+    }
+}

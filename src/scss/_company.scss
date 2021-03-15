@@ -1,0 +1,58 @@
+.company{
+    background: #2f343a;
+    margin-top: 120px;
+    position: relative;
+
+.row{
+    background: linear-gradient(90deg,#2f343a 30%, #393F47 30% 70%, #2f343a 70%);
+    padding:80px 100px 80px 100px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__title{
+        position: absolute;
+        top: 150px;
+
+    }
+    &__descr{
+        font-style: 16px;
+        color: #fff;
+        max-width: 445px;
+        position: absolute;
+        top: 250px
+    }
+    &__block{
+        display: flex;
+        flex-wrap: wrap;
+        width: 600px;
+        margin-left: 500px;
+    }
+    &__card{
+        width: 200px;
+        height: 160px;
+        text-align: center;
+        text-transform: uppercase;
+        background:#fff;
+        border: 1px solid $gold;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    &__header{
+        color: #2f343a;
+        font-size: 64px;
+    }
+    &__main{
+        font-size: 16px;
+        font-weight: bold;
+    }
+    &__footer{
+        font-size: 10px;
+        
+
+    }
+   
+}

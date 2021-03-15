@@ -1,0 +1,40 @@
+.footer{
+   margin-top: -5px;
+    width: 100%;
+    height: 120px;
+    background: $gold;
+    padding-top: 40px;
+    padding-left: 150px;
+&__logo{
+    margin-left: 50px;
+}
+    .row {
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .col{
+        flex-grow: 1;
+        color: white;
+        margin-left: 20px;
+    }
+    &__address{   
+     margin-left: 200px;
+    }   
+    &__adr{
+        color: white;
+    }
+    &__mail{
+        color: #2F343A;
+
+    }
+    &__number{
+        color: white;
+        margin-left: 600px;
+        margin-top: -35px;
+    }
+    .text{
+        color: #2F343A;
+    }
+    
+}
